@@ -11,6 +11,11 @@ server:
   contextPath: ${contextPath}
   session:
     timeout: 1800000
+  ssl
+    key-store: keystore.p12
+    key-store-password: mypassword
+    keyStoreType: PKCS12
+    keyAlias: tomcat
 
 security:
   user:
