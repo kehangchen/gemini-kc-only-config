@@ -7,7 +7,7 @@ spring:
 server:
   port: ${authserverPort}
   contextPath: /tr
-  ssl
+  ssl:
     key-store: keystore.p12
     key-store-password: mypassword
     keyStoreType: PKCS12
