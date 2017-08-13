@@ -76,6 +76,9 @@ zuul:
     login:
       path: /login/**
       url: ${authRootUrl}/tr/login
+    logoutCas:
+      path: /logoutCas/**
+      url: ${authRootUrl}/tr/logout
 
 eureka:
   client:
