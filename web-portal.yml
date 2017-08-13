@@ -42,6 +42,7 @@ zuul:
   routes:
     logoutCas:
       path: /logoutCas/**
+      sensitiveHeaders: Cookie,Set-Cookie,Authorization,xhrFields
       url: ${authRootUrl}/tr/logout
     resource:
       path: /resource/**
