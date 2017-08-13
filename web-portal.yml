@@ -41,7 +41,7 @@ security:
 zuul:
   routes:
     logoutCas:
-      path: /logoutCas/**
+      path: **/logoutCas/**
       url: ${authRootUrl}/tr/logout
     resource:
       path: /resource/**
