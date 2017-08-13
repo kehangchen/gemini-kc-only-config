@@ -40,6 +40,9 @@ security:
 
 zuul:
   routes:
+    logoutCas:
+      path: /logoutCas/**
+      url: ${authRootUrl}/tr/logout
     resource:
       path: /resource/**
       url: ${businessServiceBaseUrl}/tr/api/businessservice/email
@@ -76,9 +79,6 @@ zuul:
     login:
       path: /login/**
       url: ${authRootUrl}/tr/login
-    logoutCas:
-      path: /logoutCas/**
-      url: ${authRootUrl}/tr/logout
 
 eureka:
   client:
