@@ -44,6 +44,9 @@ zuul:
       path: /logoutCas/**
       sensitiveHeaders: Cookie,Set-Cookie,Authorization,xhrFields
       url: ${authRootUrl}/tr/logout
+    exit:
+      path: /exit/**
+      url: %{authRootUrl}/tr/exit
     resource:
       path: /resource/**
       url: ${businessServiceBaseUrl}/tr/api/businessservice/email
