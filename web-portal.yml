@@ -11,6 +11,7 @@ server:
   contextPath: ${contextPath}
   session:
     timeout: 1800000
+  webPortalRootUrl: ${webPortalRootUrl}
   #ssl:
     #key-store: keystore.p12
     #key-store-password: mypassword
