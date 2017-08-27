@@ -30,7 +30,7 @@ com:
           default: login
         authentication:
           maxSessions: 0
-          tokenValidityPeriod: 60
+          tokenValidityPeriod: 300
           supportedGrantTypes: authorization_code,password,client_credentials
           fields: userId,userEmail,userLastName,userFirstName,entityId,entityName,userTitle
           keyfile: ${keyfile}
