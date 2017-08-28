@@ -84,7 +84,7 @@ zuul:
       url: ${authRootUrl}/tr/login
     exit:
       path: /exit/**
-      url: ${webPortalRootUrl}/traderocket/exit
+      url: ${authRootUrl}/tr/exit
 
 eureka:
   client:
