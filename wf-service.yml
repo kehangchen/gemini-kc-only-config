@@ -1,6 +1,10 @@
 spring:
   application:
     name: wf-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/activiti
+    username: root
+    password: password
 
 server:
   port: 9089
